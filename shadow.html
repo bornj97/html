@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            font-size: 50px;
+            font-family: Arial, Helvetica, sans-serif; /* 글꼴*/
+        }
+        .shadow{
+            color: aqua;
+            text-shadow: 20px 20px 20px coral;
+            /* 가로, 세로, 번짐정도, 색상*/
+        }
+        .shadow2{
+            color: burlywood;
+            text-shadow: 3px 3px;
+        }
+        .shadow3{
+            color: chartreuse;
+            text-shadow: 7px -7px 5px gray;
+        }
+        .shadow4{
+            color: darkgreen;
+            text-shadow: 0 0 4px lightgray, 2px -10px 6px yellow, 2px -19px 18px red, 2px -19px 18px orangered;
+        }
+        div{
+            font: normal 24px verdana;
+        }
+        .wordArtEffect{
+            color: white;
+            text-shadow: 0px 0px 3px darkblue;
+        }
+        .threeDEffect{
+            color: white;
+            text-shadow: 2px 2px 4px black;
+        }
+        .muitiEffect{
+            color: yellow;
+            text-shadow: 2px 2px 2px black, 
+            0 0 25px blue, 0 0 5px darkblue;
+        }
+        .redBox{
+            box-shadow: 10px 10px red;
+            width: 150px;
+            height: 70px;
+            padding: 10px;
+            border: 10px solid lightgray;
+            background-size: 150px 100px; /*이미지 사이즈 조절*/
+            background-repeat: no-repeat; /*이미지 반복 안함*/
+        }
+        .bluebox{
+            box-shadow: 10px 10px 5px skyblue;
+            width: 150px;
+            height: 70px;
+            padding: 10px;
+            border: 10px solid lightgray;
+            background-image: url(../images/배경이\ 투명한\ 뽀로로.jpg);
+        }
+    </style>
+</head>
+<body>
+    <h1 class="shadow1">html_5</h1>
+    <h1 class="shadow2">html_5</h1>
+    <h1 class="shadow3">html_5</h1>
+    <h1 class="shadow4">html_5</h1>
+    <div class=""></div>
+
+    <h3>박스 만들기 199족</h3>
+    <hr>
+    <div class="redBox">뚱이와 함께</div> <br>
+    <div class="bluebox">뚱이와 함께</div> <br>
+    <div class="muitiEffect">뚱이와 함께</div> <br>
+
+    <h3>마우스 커서 200족</h3>
+    아래에 마우스를 올려 보세요. 커서가 변합니다.
+    <hr>
+    <p style="cursor: crosshair;">십자 모양 커서</p>
+    <p style="cursor: help;">도움말 모양 커서</p>
+    <p style="cursor: pointer;">포인트 모양 커서</p>
+    <p style="cursor: progress;">프로그램 실행 중 모양 커서</p>
+    <p style="cursor: n-resize;">상하 크기 조절 모양 커서</p>
+    
+</body>
+</html>
